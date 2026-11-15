@@ -1,0 +1,33 @@
+@-moz-document url-prefix("https://rutube.ru") {
+.header-logo-wrapper-module__menu,
+nav[class*="menu-content-module__content"],
+.wdp-header-application-module__wrapper,
+.wdp-header-add-content-menu-module__button,
+[class*="wdp-notification-bell-module"],
+.premium-subscription-entrypoint-module__premium-entrypoint,
+.application-module__bottom-content,
+[data-testid="overlay-popup"] {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
+
+}
+
+@-moz-document url-prefix("https://rutube.ru/video/") {
+[data-testid="recommendations-list recommendationInPlayer"],
+section:has(> .additional-recommendations-module__section),
+.wdp-see-also-module__wrapper,
+#communicationBanner,
+[data-testid="advert-banner"],
+.video-page-layout-module__ruwiki,
+.video-page-layout-module__right:not(:has(.video-playlist-container-view-module__playlist)) {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
+}
