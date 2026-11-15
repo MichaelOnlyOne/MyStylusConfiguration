@@ -1,0 +1,200 @@
+[
+  {
+    "settings": {
+      "disableAll": false,
+      "exposeIframes": false,
+      "exposeIframes.sites": "",
+      "exposeIframes.sitesOnly": false,
+      "exposeStyleName": false,
+      "keepAlive": 0,
+      "keepAliveIdle": false,
+      "newStyleAsUsercss": false,
+      "openEditInWindow": false,
+      "openEditInWindow.popup": false,
+      "patchCsp": false,
+      "patchCsp.sites": "",
+      "patchCsp.sitesOnly": false,
+      "show-badge": true,
+      "styleViaASS": false,
+      "styleViaASS.sites": "",
+      "styleViaASS.sitesOnly": false,
+      "styleViaXhr": false,
+      "styleViaXhr.sites": "",
+      "styleViaXhr.sitesOnly": false,
+      "urlInstaller": true,
+      "windowPosition": {},
+      "compactWidth": 850,
+      "config.autosave": true,
+      "schemeSwitcher.enabled": "system",
+      "schemeSwitcher.nightStart": "18:00",
+      "schemeSwitcher.nightEnd": "06:00",
+      "popup.enabledFirst": true,
+      "popup.stylesFirst": true,
+      "popup.autoResort": false,
+      "popup.borders": false,
+      "popup.findSort": "w",
+      "manage.onlyEnabled": false,
+      "manage.onlyLocal": false,
+      "manage.onlyUsercss": false,
+      "manage.onlyEnabled.invert": false,
+      "manage.onlyLocal.invert": false,
+      "manage.onlyUsercss.invert": false,
+      "manage.actions.expanded": false,
+      "manage.backup.expanded": false,
+      "manage.filters.expanded": true,
+      "manage.links.expanded": true,
+      "manage.minColumnWidth": 750,
+      "manage.newUI": true,
+      "manage.newUI.favicons": true,
+      "manage.newUI.faviconsGray": false,
+      "manage.newUI.targets": 3,
+      "manage.newUI.sort": "title,asc",
+      "manage.searchMode": "code",
+      "editor.options": {},
+      "editor.toc.expanded": true,
+      "editor.options.expanded": false,
+      "editor.options.style.expanded": false,
+      "editor.general.expanded": false,
+      "editor.lint.expanded": true,
+      "editor.publish.expanded": false,
+      "editor.lineWrapping": true,
+      "editor.smartIndent": true,
+      "editor.indentWithTabs": false,
+      "editor.tabSize": 4,
+      "editor.keyMap": "sublime",
+      "editor.theme": "default",
+      "editor.beautify": {
+        "selector_separator_newline": true,
+        "newline_before_open_brace": false,
+        "newline_after_open_brace": true,
+        "newline_between_properties": true,
+        "newline_before_close_brace": true,
+        "newline_between_rules": false,
+        "preserve_newlines": true,
+        "end_with_newline": false,
+        "indent_conditional": true,
+        "indent_mozdoc": true,
+        "space_around_combinator": true,
+        "space_around_cmp": false
+      },
+      "editor.beautify.hotkey": "",
+      "editor.toggle.hotkey": "Alt-Enter",
+      "editor.toggle.save": false,
+      "editor.linter": "csslint",
+      "editor.linter.on": false,
+      "editor.lintReportDelay": 500,
+      "editor.matchHighlight": "token",
+      "editor.autoCloseBrackets": true,
+      "editor.autocompleteOnTyping": false,
+      "editor.contextDelete": false,
+      "editor.selectByTokens": true,
+      "editor.arrowKeysTraverse": true,
+      "editor.appliesToLineWidget": true,
+      "editor.autosaveDraft": 10,
+      "editor.livePreview": true,
+      "editor.livePreview.delay": 0.2,
+      "editor.targetsFirst": true,
+      "editor.colorpicker": true,
+      "editor.colorpicker.hexUppercase": 0,
+      "editor.colorpicker.hotkey": "",
+      "editor.colorpicker.color": "",
+      "editor.colorpicker.maxHeight": 300,
+      "hotkey._execute_browser_action": "",
+      "hotkey.openManage": "",
+      "hotkey.styleDisableAll": "",
+      "hotkey.toggleTab": "",
+      "sync.enabled": "none",
+      "iconset": -1,
+      "badgeDisabled": "#8B0000",
+      "badgeNormal": "#006666",
+      "headerWidth.edit": 280,
+      "headerWidth.install": 280,
+      "headerWidth.manage": 280,
+      "popup.search.globals": false,
+      "popup.sidePanel": false,
+      "popup.sidePanel.config": -1,
+      "popup.sidePanel.editor": false,
+      "popup.sidePanel.finder": false,
+      "popup.sidePanel.manager": false,
+      "popup.sidePanel.options": true,
+      "popup.toggler.expanded": false,
+      "popupWidth": 246,
+      "popupWidthMax": 280,
+      "updateInterval": 24,
+      "updateOnlyEnabled": false
+    },
+    "order": {
+      "main": [],
+      "prio": []
+    }
+  },
+  {
+    "enabled": true,
+    "installDate": 1794665108368,
+    "name": "Yandex Cleaner",
+    "sections": [
+      {
+        "code": "[data-testid=\"get-premium\"],\n[class*=\"FooterPromo\"],\n[class*=\"footerPromo\"],\n[class*=\"MobileAppPromo\"],\n[class*=\"mobileAppBanner\"],\n[class*=\"BottomBanner\"],\n[class*=\"SpaceInformer-m__container\"],\ndiv[data-testid=\"left-column_ecosystem-footer\"],\ndiv:has(> div > a[class*=\"DisableAdsButton__button\"]),\ndiv[class^=\"FloatingButton-m__container\"],\n[class*=\"PopupAggressivePromoApps\"],\na.sidebarPromo {\n  display: none !important;\n  visibility: hidden !important;\n  height: 0 !important;\n  width: 0 !important;\n  overflow: hidden !important;\n}\n\ndiv:has(> span > span > a[data-testid=\"orb-global-bar-monetization-item\"]) {\n  visibility: hidden !important;\n  height: 0 !important;\n  width: 0 !important;\n  overflow: hidden !important;\n}\n",
+        "regexps": [
+          "https://([a-z0-9-]+\\.)*yandex\\.[a-z]{2,3}/.*"
+        ]
+      },
+      {
+        "code": "[id=\"ya-dist-link_bro\"],\n[class*=\"corner-banner__root\"] {\n  display: none !important;\n  visibility: hidden !important;\n  height: 0 !important;\n  width: 0 !important;\n  overflow: hidden !important;\n}\n",
+        "urlPrefixes": [
+          "https://dzen.ru/"
+        ]
+      },
+      {
+        "code": ".Distribution,\ndiv:has(> #reedhm-rreed),\n#reedhm-rreed,\nsection[data-test-id=\"feed\"] {\n  display: none !important;\n  visibility: hidden !important;\n  height: 0 !important;\n  width: 0 !important;\n  overflow: hidden !important;\n}\n",
+        "urlPrefixes": [
+          "https://ya.ru/"
+        ]
+      }
+    ],
+    "_rev": 1794780487605,
+    "updateDate": 1794780487605,
+    "_id": "b0e6704b-1fe3-46e0-9359-0885f4392b3d",
+    "id": 3
+  },
+  {
+    "enabled": true,
+    "installDate": 1794674337891,
+    "name": "Rutube",
+    "sections": [
+      {
+        "code": ".header-logo-wrapper-module__menu,\nnav[class*=\"menu-content-module__content\"],\n.wdp-header-application-module__wrapper,\n.wdp-header-add-content-menu-module__button,\n[class*=\"wdp-notification-bell-module\"],\n.premium-subscription-entrypoint-module__premium-entrypoint,\n.application-module__bottom-content,\n[data-testid=\"overlay-popup\"] {\n  display: none !important;\n  visibility: hidden !important;\n  height: 0 !important;\n  width: 0 !important;\n  overflow: hidden !important;\n}\n",
+        "urlPrefixes": [
+          "https://rutube.ru"
+        ]
+      },
+      {
+        "code": "[data-testid=\"recommendations-list recommendationInPlayer\"],\nsection:has(> .additional-recommendations-module__section),\n.wdp-see-also-module__wrapper,\n#communicationBanner,\n[data-testid=\"advert-banner\"],\n.video-page-layout-module__ruwiki,\n.video-page-layout-module__right:not(:has(.video-playlist-container-view-module__playlist)) {\n  display: none !important;\n  visibility: hidden !important;\n  height: 0 !important;\n  width: 0 !important;\n  overflow: hidden !important;\n}",
+        "urlPrefixes": [
+          "https://rutube.ru/video/"
+        ]
+      }
+    ],
+    "_rev": 1794769707961,
+    "updateDate": 1794769707961,
+    "_id": "c087726d-9848-4b72-b59d-1b5079f344e4",
+    "id": 4
+  },
+  {
+    "enabled": true,
+    "installDate": 1794780684363,
+    "name": "Tele2",
+    "sections": [
+      {
+        "code": "[data-cartridge-type=\"PersonalizedBannerLenta\"],\n[class=\"container container-t2\"],\n.promo-container,\n[data-element=\"PopoverPortal\"] {\n  display: none !important;\n  visibility: hidden !important;\n  height: 0 !important;\n  width: 0 !important;\n  overflow: hidden !important;\n}",
+        "regexps": [
+          "https?://[^/]+\\.t2\\.ru/.*"
+        ]
+      }
+    ],
+    "_rev": 1794781027286,
+    "updateDate": 1794781027286,
+    "_id": "9f8d2e22-673d-4d98-b8af-00818a90df20",
+    "id": 5
+  }
+]
