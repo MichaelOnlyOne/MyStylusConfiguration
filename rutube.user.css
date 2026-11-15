@@ -1,3 +1,4 @@
+@updateURL https://github.com/MichaelOnlyOne/MyStylusConfiguration/raw/refs/heads/main/rutube.user.css
 @-moz-document url-prefix("https://rutube.ru") {
 .header-logo-wrapper-module__menu,
 nav[class*="menu-content-module__content"],
