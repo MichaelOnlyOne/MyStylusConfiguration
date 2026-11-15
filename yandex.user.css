@@ -1,7 +1,8 @@
 /* ==UserStyle==
 @name           Yandex Cleaner
-@namespace      ://github.com
+@namespace      https://github.com/MichaelOnlyOne/MyStylusConfiguration
 @version        1.0.0
+@author         After_F aka MichaelOnlyOne
 ==/UserStyle== */
 @-moz-document regexp("https://([a-z0-9-]+\\.)*yandex\\.[a-z]{2,3}/.*") {
 [data-testid="get-premium"],
