@@ -1,0 +1,59 @@
+/* ==UserStyle==
+@name           Yandex Cleaner
+@namespace      ://github.com
+@version        1.0.0
+==/UserStyle== */
+@-moz-document regexp("https://([a-z0-9-]+\\.)*yandex\\.[a-z]{2,3}/.*") {
+[data-testid="get-premium"],
+[class*="FooterPromo"],
+[class*="footerPromo"],
+[class*="MobileAppPromo"],
+[class*="mobileAppBanner"],
+[class*="BottomBanner"],
+[class*="SpaceInformer-m__container"],
+div[data-testid="left-column_ecosystem-footer"],
+div:has(> div > a[class*="DisableAdsButton__button"]),
+div[class^="FloatingButton-m__container"],
+[class*="PopupAggressivePromoApps"],
+a.sidebarPromo {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
+
+div:has(> span > span > a[data-testid="orb-global-bar-monetization-item"]) {
+  visibility: hidden !important;
+  height: 0 !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
+
+}
+
+@-moz-document url-prefix("https://dzen.ru/") {
+[id="ya-dist-link_bro"],
+[class*="corner-banner__root"] {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
+
+}
+
+@-moz-document url-prefix("https://ya.ru/") {
+.Distribution,
+div:has(> #reedhm-rreed),
+#reedhm-rreed,
+section[data-test-id="feed"] {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}
+
+}
