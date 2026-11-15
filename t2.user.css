@@ -3,7 +3,7 @@
 @namespace      ://github.com
 @version        1.0.0
 ==/UserStyle== */
-@-moz-document regexp("https?://[^/]+\\.t2\\.ru/.*") {
+@-moz-document domain("t2.ru") {
 [data-cartridge-type="PersonalizedBannerLenta"],
 [class="container container-t2"],
 .promo-container,
