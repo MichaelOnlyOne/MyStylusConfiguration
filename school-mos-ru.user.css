@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           Дневник МЕШ
+@namespace      https://github.com/MichaelOnlyOne/MyStylusConfiguration
+@version        1.0.0
+@author         After_F aka MichaelOnlyOne
+@updateURL      https://github.com/MichaelOnlyOne/MyStylusConfiguration/raw/main/school-mos-ru.user.css
+==/UserStyle== */
+@-moz-document url-prefix("https://school.mos.ru") {
+[data-qa-id="ChatSferum"] {
+display: none !important;
+visibility: hidden !important;
+height: 0 !important;
+width: 0 !important;
+overflow: hidden !important;
+}
+}
