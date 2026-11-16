@@ -1,9 +1,9 @@
 /* ==UserStyle==
 @name           Rutube
 @namespace      https://github.com/MichaelOnlyOne/MyStylusConfiguration
-@version        1.0.5
+@version        1.0.0
 @author         After_F aka MichaelOnlyOne
-@updateURL      https://github.com/MichaelOnlyOne/MyStylusConfiguration/raw/refs/heads/main/rutube.user.css
+@updateURL      https://github.com/MichaelOnlyOne/MyStylusConfiguration/raw/main/rutube.user.css
 ==/UserStyle== */
 @-moz-document url-prefix("https://rutube.ru") {
 .header-logo-wrapper-module__menu,

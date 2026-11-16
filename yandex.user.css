@@ -1,9 +1,9 @@
 /* ==UserStyle==
 @name           Yandex Cleaner
 @namespace      https://github.com/MichaelOnlyOne/MyStylusConfiguration
-@version        1.0.5
+@version        1.0.0
 @author         After_F aka MichaelOnlyOne
-@updateURL      https://github.com/MichaelOnlyOne/MyStylusConfiguration/raw/refs/heads/main/yandex.user.css
+@updateURL      https://github.com/MichaelOnlyOne/MyStylusConfiguration/raw/main/yandex.user.css
 ==/UserStyle== */
 @-moz-document regexp("https://([a-z0-9-]+\\.)*yandex\\.[a-z]{2,3}/.*") {
 .InfoSpace,
