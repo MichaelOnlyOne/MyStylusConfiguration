@@ -5,13 +5,14 @@
 @author         After_F aka MichaelOnlyOne
 ==/UserStyle== */
 @-moz-document regexp("https://([a-z0-9-]+\\.)*yandex\\.[a-z]{2,3}/.*") {
+.InfoSpace,
+[class*="SpaceInformer-m__container"],
 [data-testid="get-premium"],
 [class*="FooterPromo"],
 [class*="footerPromo"],
 [class*="MobileAppPromo"],
 [class*="mobileAppBanner"],
 [class*="BottomBanner"],
-[class*="SpaceInformer-m__container"],
 div[data-testid="left-column_ecosystem-footer"],
 div:has(> div > a[class*="DisableAdsButton__button"]),
 div[class^="FloatingButton-m__container"],
