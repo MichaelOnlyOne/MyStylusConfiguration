@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Yandex Cleaner
 @namespace      https://github.com/MichaelOnlyOne/MyStylusConfiguration
-@version        1.0.15
+@version        1.0.16
 @author         After_F aka MichaelOnlyOne
 @updateURL      https://github.com/MichaelOnlyOne/MyStylusConfiguration/raw/main/yandex.user.css
 ==/UserStyle== */
@@ -18,8 +18,7 @@ div[data-testid="left-column_ecosystem-footer"],
 div:has(> div > a[class*="DisableAdsButton__button"]),
 div[class^="FloatingButton-m__container"],
 [class*="PopupAggressivePromoApps"],
-sidebarPromo,
-[class*="yandex-plus-navigation-entry"],
+a.sidebarPromo,
 [class*="Fullscreen_promoContentWrapper_"] {
   display: none !important;
   visibility: hidden !important;
